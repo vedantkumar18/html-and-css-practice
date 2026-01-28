@@ -1,0 +1,424 @@
+
+.uber-btn {
+  background-color: black;
+  color: white;
+  width: 7rem;
+  border-style: none;
+  cursor: pointer;
+  margin-right: 5px;
+  height: 30px;
+  transition: opacity 0.15s;
+}
+.uber-btn:hover {
+  opacity: 0.6;
+}
+
+.amazon-btn {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  width: 8rem;
+  border-radius: 12px;
+  border-style: none;
+  margin-right: 5px;
+  height: 30px;
+}
+.amazon-btn:hover{
+  background-color: rgb(244, 206, 20);
+}
+
+.github-btn {
+  background-color: rgb(46, 164, 79);
+  border-radius: 4px;
+  border-style: none;
+  width: 5rem;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  height: 30px;
+}
+.github-btn:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-btn {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border-style: none;
+  font-weight: bold;
+  width: 110px;
+  margin-right: 5px;
+  height: 30px;
+  border-radius: 2px;
+}
+.bootstrap-btn:hover {
+  background-color: rgb(109, 67, 172);
+}
+
+.bootstrap-downnload-btn {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  color: rgb(108, 117, 125);
+  width: 100px;
+  margin-right: 5px;
+  height: 30px;
+  border-radius: 2px;
+  transition: color 0.45s, background-color 0.45s;
+}
+.bootstrap-downnload-btn:hover {
+  color: white;
+  background-color:rgb(108, 117, 125);
+}
+
+.linkedin-btn {
+ background-color: rgb(10, 102, 194);
+ color: white;
+ font-weight: bold;
+ border-style: none;
+ border-radius: 16px;
+ width: 220px;
+ margin-right: 5px;
+  height: 30px;
+}
+.linkedin-btn:hover {
+  background-color: rgb(13, 89, 165);
+}
+
+.linkedin-save-btn {
+ color: rgb(10, 102, 194);
+ border-radius: 16px;
+ width: 70px;
+ font-weight: bold;
+ border-style: solid;
+ border-color:rgb(10, 102, 194);
+ border-width: 1px;
+ margin-right: 5px;
+  height: 30px;
+}
+.linkedin-save-btn:hover{
+  border-width: 1px;
+  color: rgb(17, 116, 215);
+  background: rgb(201, 226, 246);
+}
+
+#amazon-link {
+  color: rgb(0 , 113, 133);
+}
+#amazon-link:hover {
+  color:rgb(247, 83, 23);
+}
+
+#para1 {
+  font-weight: bold;
+}
+
+#para2 {
+  color: rgb(0, 118, 0);
+}
+ #test-cart-btn {
+  background-color: rgb(255, 216, 20);
+  border-style: none;
+  border-radius: 16px;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+}
+#test-cart-btn:hover {
+  background-color:rgb(233, 203, 57);
+}
+#test-cart-btn:active {
+  opacity: 0.6;
+}
+
+ #test-buy-btn {
+  background-color: rgb(255, 164, 28);
+    border-style: none;
+  border-radius: 16px;
+  width: 100px;
+  height: 30px;
+ }
+ #test-buy-btn:hover {
+  background-color: rgb(228, 152, 39);
+ }
+ #test-buy-btn:active {
+  opacity: 0.6;
+ }
+
+.pag-btn-back {
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+.pag-btn-next {
+   padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+.stretch-btn {
+  background-color: green;
+  color: white;
+  transition: padding 1s;
+}
+.stretch-btn:hover{
+  padding: 20px;
+  cursor: pointer;
+}
+
+.shadow-btn {
+   background-color: green;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.25s;
+}
+
+.shadow-btn:active{
+    padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 8px;
+  padding-left: 8px;
+  box-shadow: none;
+}
+
+  .transition-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+      margin 0.15s;
+  }
+
+   .transition-btn:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .font-test {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .yearly-deal {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+
+  .yearly-sale {
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(227, 65, 64);
+  }
+
+  .course-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+
+  .course-mastery {
+    margin-top: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 17px;
+  }
+
+  .course-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 260px;
+  }
+
+  .course-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: padding-left 0.35s, padding-right 0.35s;
+    background-color: green;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+  }
+
+  .course-btn:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .shopping-text {
+      text-align: center;
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+  .shopping-apple {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .shopping-learn-more {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(2, 83, 196);
+  }
+
+  .macbook-latest {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(232, 127, 7);
+    margin-bottom: 0px;
+  }
+
+  .macbook-name {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+
+  .macbook-cta {
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+
+  .macbook-price {
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .macbook-btn{
+  display: block; 
+  margin: auto;
+  border-style: none;
+  border-radius: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 87, 250);
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .money {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .money span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 14px;
+  }
+
+  .money-rate {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+  }
+
+  .money-hours {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+  }
+
+  .money-hours span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(239, 61, 61);
+  }
+
+  .twitter-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .twitter-title span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: normal;
+  }
+
+  .twitter-text {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .twitter-text1 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .twitter-text1 span{
+    color: rgb(6, 183, 183);
+  }
+
+  .card {
+  width: 160px;
+  display: inline-block;
+}
+
+.main-pic {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 0px;
+}
+
+.main-name {
+  display: block;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 23px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card-profile-pic {
+  width: 30px;
+  height: 30px;
+  margin-top: 0px;
+  display: inline-block;
+  border-radius: 40px;
+  margin-bottom: 0px;
+}
+
+.friends {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.friends-btn {
+  display: block;
+}
