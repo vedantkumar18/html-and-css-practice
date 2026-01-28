@@ -1,0 +1,112 @@
+.subscribe-btn {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: 0px;
+     padding-top: 7.3px;
+   padding-bottom: 7.3px;
+   padding-right: 20px;
+   padding-left: 20px;
+  border-radius: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+.subscribe-btn:hover {
+  opacity: 0.8;
+}
+.subscribe-btn:active {
+  opacity: 0.5;
+}
+
+
+
+.join-btn {
+  background-color: white;
+   padding-top: 7.3px;
+   padding-bottom: 7.3px;
+   padding-right: 15px;
+   padding-left: 15px;
+  border-radius: 2px;
+  border-color:rgb(27, 140, 254);
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  color: rgb(27, 140, 254);
+  margin-right: 8px;
+  transition: background-color 0.35s, color 0.35s;
+}
+.join-btn:hover {
+  background-color: rgb(27, 140, 254);
+  color: white;
+}
+.join-btn:active {
+  opacity: 0.7;
+}
+
+
+.tweet-btn {
+  color: white;
+  background-color: rgb(13, 158, 206);
+      padding-top: 7.3px;
+   padding-bottom: 7.3px;
+   padding-right: 25px;
+   padding-left: 25px;
+  border-radius: 2px;
+  border-style: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 0.15s;
+}
+.tweet-btn:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.video-title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 18px;
+  width: 290px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+}
+
+.video-author {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 0px;
+}
+
+.video-description {
+  font-family: Arial, Helvetica, sans-serif;
+   color: rgb(96, 96, 96);
+   font-size: 14px;
+   width: 290px;
+   line-height: 22px;
+   margin-top: 20px;
+   margin-bottom: 100px;
+}
+
+.apple-anouncement {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 18px;
+}
+
+.shop-now:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
