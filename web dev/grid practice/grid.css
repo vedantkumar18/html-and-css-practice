@@ -1,0 +1,42 @@
+p {
+  font-family: Helvetica;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.card-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  column-gap: 20px;
+}
+.main-image {
+  width: 150px;
+  height: 150px;
+  background-color: cyan;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  background-color: cyan;
+  width: 30px;
+  height: 30px;
+}
+
+.name {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mutual-friends-block {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  column-gap: 10px;
+}
+
+.text-mutual-friends {
+  font-size: 14px;
+  text-align: center;
+  vertical-align: bottom;
+}
