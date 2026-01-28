@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex</title>
+  <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+  
+  <!--
+
+<div style="
+  display: flex;
+  flex-direction: row;
+  ">
+
+  <div style="background-color: lightblue;">div1</div>
+  <div style="background-color: lightpink;">div2 <p>test</p></div>
+
+</div>
+
+<div style="
+margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  ">
+
+  <div style="background-color: lightblue;
+  width: 100px;
+  ">100px</div>
+  <div style="background-color: lightpink;
+  flex: 1;
+  ">flex 1</div>
+
+</div>
+
+<div style="
+margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  ">
+
+  <div style="background-color: lightblue;
+  width: 100px;
+  ">100px</div>
+  <div style="background-color: lightpink;
+  flex: 1;
+  ">flex 1</div>
+    <div style="background-color: lightblue;
+  flex: 2;
+  ">flex2</div>
+
+
+</div>
+
+<div style="
+  margin-top: 30px;
+  height: 70px;
+  border-width: 1px;
+  border-style:solid;
+  border-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  ">
+
+  <div style="background-color: lightblue;
+  width: 100px;
+  ">100px</div>
+  <div style="background-color: lightpink;
+  width: 100px;
+  ">100px</div>
+    <div style="background-color: lightblue;
+  width: 100px;
+  ">100px</div>
+
+
+</div>
+
+<div style="
+  margin-top: 30px;
+  height: 70px;
+  border-width: 1px;
+  border-style:solid;
+  border-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  ">
+
+  <div style="background-color: lightblue;
+  width: 100px;
+  ">100px</div>
+  <div style="background-color: lightpink;
+  width: 100px;
+  ">100px</div>
+    <div style="background-color: lightblue;
+  width: 100px;
+  ">100px</div>
+
+
+</div>
+
+<div style="
+  margin-top: 30px;
+  height: 70px;
+  border-width: 1px;
+  border-style:solid;
+  border-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  ">
+
+  <div style="background-color: lightblue;
+  width: 100px;
+  ">100px</div>
+  <div style="background-color: lightpink;
+  width: 100px;
+  ">100px</div>
+    <div style="background-color: lightblue;
+  width: 100px;
+  ">100px</div>
+
+
+</div>
+
+<div class="container">
+  <div class="box1">200px</div>
+  <div class="box2">75px</div>
+</div>
+
+<div class="container">
+  <div class="item1">item1</div>
+  <div class="item2">1fr</div>
+  <div class="item3">item3</div>
+</div>
+
+<div class="container1">
+  <div class="item">item1</div>
+  <div class="item">item2</div>
+  <div class="item">item3</div>
+  <div class="item">item4</div>
+</div>
+
+<div class="containers">
+  <div class="item">Item1</div>
+  <div class="item">Item2</div>
+</div>
+
+<div class="sidebar">
+  <div class="areas">
+    <p>Home</p>
+    <button class="sidebar-btn">14</button>
+  </div>
+
+  <div class="areas">
+    <p>Notifications</p>
+    <button class="sidebar-btn">3</button>
+  </div>
+
+  <div class="areas">
+    <p>Messages</p>
+    <button class="sidebar-btn">5</button>
+  </div>
+</div>
+
+<div class="header">
+  <div class="header-right">
+    <p>Home</p>
+  </div>
+  <div class="header-middle">
+    <input class="search-bar" type="text" placeholder="Search">
+  </div>
+  <div class="header-left">
+    <button class="download-btn">Download</button>
+  </div>
+</div>
+
+<div class="follow-block">
+  <div class="profile">
+    <img class="profile-pic" src="profile-pic/channel-1.jpeg"> 
+  </div>
+  <div class="info">
+    <p class="name">oliver</p>
+    <p class="status">the cat</p>
+    <p class="fame">popular</p>
+  </div>
+  <button class="follow-btn">Follow</button>
+</div>
+
+<div class="follow-block">
+  <div class="profile">
+    <img class="profile-pic" src="profile-pic/channel-1.jpeg"> 
+  </div>
+  <div class="info">
+    <p class="name">oliver</p>
+    <p class="status">the cat</p>
+    <p class="fame">popular</p>
+  </div>
+  <button class="follow-btn">Follow</button>
+</div>
+
+<div class="follow-block">
+  <div class="profile">
+    <img class="profile-pic" src="profile-pic/channel-1.jpeg"> 
+  </div>
+  <div class="info">
+    <p class="name">oliver</p>
+    <p class="status">the cat</p>
+    <p class="fame">popular</p>
+  </div>
+  <button class="follow-btn">Follow</button>
+</div>
+
+<div class="nested">
+  <div class="n-item1">item1</div>
+  <div class="n-item2">item2
+  </div>
+</div>
+
+
+<div class="nested1">
+  <div class="n-obj-1"></div>
+  <div class="n-obj-2">
+    <div class="n-obj-2-row-1">row1</div>
+    <div class="n-obj-2-row-2">
+      <p>row2</p>
+      <p>row2</p>
+    </div>
+  </div>
+</div>
+
+<div class="inbox">
+  <div>
+    <p class="inbox-title">ALL INBOXES</p>
+  </div>
+  <div class="main-info">
+  <div class="inbox-profile">
+    <img class="inbox-profile-pic" src="profile-pic/channel-1.jpeg">
+  </div>
+  <div class="inbox-message-info">
+  <div class="inbox-box1">
+    <p class="inbox-message-title">Chewy Promotions</p>
+    <p class="inbox-message-time">4:58 PM</p>
+    </div>
+    <p class="inbox-subject">Biggest sales of the year!</p>
+    <p class="inbox-message">Hey there! We're writing to tell you about our...</p>   
+    </div>
+  </div>
+
+    <div class="main-info">
+  <div class="inbox-profile">
+    <img class="inbox-profile-pic" src="profile-pic/channel-1.jpeg">
+  </div>
+  <div class="inbox-message-info">
+  <div class="inbox-box1">
+    <p class="inbox-message-title">Chewy Promotions</p>
+    <p class="inbox-message-time">4:58 PM</p>
+    </div>
+    <p class="inbox-subject">Biggest sales of the year!</p>
+    <p class="inbox-message">Hey there! We're writing to tell you about our...</p>   
+    </div>
+  </div>
+
+    <div class="main-info">
+  <div class="inbox-profile">
+    <img class="inbox-profile-pic" src="profile-pic/channel-1.jpeg">
+  </div>
+  <div class="inbox-message-info">
+  <div class="inbox-box1">
+    <p class="inbox-message-title">Chewy Promotions</p>
+    <p class="inbox-message-time">4:58 PM</p>
+    </div>
+    <p class="inbox-subject">Biggest sales of the year!</p>
+    <p class="inbox-message">Hey there! We're writing to tell you about our...</p>   
+    </div>
+  </div>
+
+  </div>
+
+<div class="twitter-block">
+
+  <div>
+    <img class="twitter-profile-pic" src="profile-pic/channel-1.jpeg">
+    <div class="twitter-info">
+    <p class="twitter-user">
+      supersimple.dev <span> @SuperSimpleDev </span>
+     </p>
+    <p class="twitter-message">
+what is backend web development? A complete overview. New video up!
+    </p>
+    <div class="youtube-thumbnail-card">
+    <div class="youtube-video-thumbnail"></div>
+    <div class="youtube-video-details">
+      <p class="website-name">youtube.com</p>
+      <p class="youtube-video-title">
+        Backend web development - a complete overview (2021)
+      </p>
+    </div>
+      </div>
+  </div>
+  </div>
+
+
+</div>
+
+
+-->
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
