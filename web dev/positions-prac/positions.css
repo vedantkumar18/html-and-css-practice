@@ -1,0 +1,205 @@
+.bottom-right-div {
+  position: fixed;
+  background-color: black;
+  color: white;
+
+
+  bottom: 20px;
+  right: 20px;
+}
+
+.right-sidebar {
+  background-color: green;
+  color: white;
+  width: 100px;
+
+  position: fixed;
+
+  bottom: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.modal h1 {
+  margin-bottom: 0px;
+}
+
+.modal p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.modal button {
+  margin-top: 5px;
+}
+
+.insta-message-friends {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.insta-box1 {
+  display: flex;
+}
+
+.insta-box2 {
+  display: flex;
+}
+
+.insta-friends-profile-pic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.insta-friends-name {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.insta-add-friends-btn {
+  width: 100px;
+  height: 40px;
+}
+
+.insta-message-friends-btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+
+.discord-sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  background-color: grey;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.discord-profile-image {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.discord-sidebar1 {
+  position: fixed;
+  background-color: cyan;
+  width: 140px;
+  margin-left: 82px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.sidebar1-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.discord-sidebar1 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  top: -15px;
+  left: -15px;
+}
+
+.grey-block {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 320px;
+  height: 180px;
+  background-color: grey;
+}
+
+.time-stamp {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+}
+
+.item-background {
+  display: inline-block;
+    position: relative;
+}
+
+.shirt-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.shirts-offer {
+    position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: black;
+  color: white;
+}
+
+.item-btn-overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 300px;
+  height: 100px;
+  position: absolute;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+}
+
+.item-btn { 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
